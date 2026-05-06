@@ -834,18 +834,18 @@ MonoBehaviour:
   timeBetweenSpawns: 2
   zombiePrefab: {fileID: 224088510}
   spawnZones:
-  - name: 
-    cornerA: {fileID: 0}
-    cornerB: {fileID: 0}
-  - name: 
-    cornerA: {fileID: 0}
-    cornerB: {fileID: 0}
-  - name: 
-    cornerA: {fileID: 0}
-    cornerB: {fileID: 0}
-  - name: 
-    cornerA: {fileID: 0}
-    cornerB: {fileID: 0}
+  - name: Spawn1
+    cornerA: {fileID: 1086243624}
+    cornerB: {fileID: 1815110684}
+  - name: Spawn2
+    cornerA: {fileID: 887298099}
+    cornerB: {fileID: 2103423929}
+  - name: Spawn3
+    cornerA: {fileID: 292089041}
+    cornerB: {fileID: 1971719472}
+  - name: Spawn4
+    cornerA: {fileID: 313311015}
+    cornerB: {fileID: 1353922783}
 --- !u!4 &299524327
 Transform:
   m_ObjectHideFlags: 0
@@ -866,11 +866,11 @@ Transform:
   - {fileID: 2103423929}
   - {fileID: 887298099}
   - {fileID: 1128385268}
+  - {fileID: 1971719472}
+  - {fileID: 292089041}
   - {fileID: 116084853}
   - {fileID: 1353922783}
   - {fileID: 313311015}
-  - {fileID: 1971719472}
-  - {fileID: 292089041}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &313311014
@@ -1673,7 +1673,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &607619978
 Transform:
   m_ObjectHideFlags: 0
@@ -6325,10 +6325,10 @@ MonoBehaviour:
   calibrationUI: {fileID: 1154398784}
   trackingInterface: {fileID: 1154398778}
   enableTracking: 0
-  numberOfPlayers: 3
+  numberOfPlayers: 2
   numberOfBaseStations: 4
   enableRotation: 0
-  enableYAxis: 1
+  enableYAxis: 0
   virtualWorldSpace: {x: 100, y: 1, z: 100}
   players:
   - {fileID: 931479201}
